@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header img {
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: blue;
+  align-items: center;
+}
+nav ul {
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  padding: 20px;
+  margin: 0px 40px;
+  background-color: red;
+}
+
+.centerKnop {
+  margin: 150px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.achtergrondSpel {
+  display: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+}
+.achtergrondSpel .SpelKaart {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  width: 550px;
+  height: 250px;
+}
+.achtergrondSpel .SpelKaart .startscherm {
+  display: block;
+}
+.achtergrondSpel .SpelKaart .startscherm .error {
+  color: red;
+  display: none;
+}
+.achtergrondSpel .SpelKaart .spel {
+  position: relative;
+  display: none;
+}
+.achtergrondSpel .SpelKaart .spel .goedfoutBox {
+  position: absolute;
+}
+.achtergrondSpel .SpelKaart .spel img {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+}
+.achtergrondSpel .SpelKaart .spel p {
+  text-align: center;
+}
+.achtergrondSpel .SpelKaart .spel .centeren {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.achtergrondSpel .SpelKaart .spel .centeren button {
+  background-color: red;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 0px 15px;
+  border: none;
+}
+.achtergrondSpel .SpelKaart .onder {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 5px;
+}
+
+.show {
+  display: block;
+}
+
+footer {
+  background-color: blue;
+  padding: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=style.css.map */
